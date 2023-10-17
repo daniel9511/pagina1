@@ -1,0 +1,72 @@
+/* styles.css */
+
+
+/* Estilo para el título en el encabezado con efecto de desvanecimiento */
+header h1 {
+    font-size: 36px; /* Tamaño del texto en píxeles */
+    font-family: 'Dancing Script', cursive; /* Cambia la fuente a 'Dancing Script' o la que prefieras */
+    color: #3e2e83; /* Cambia el color del texto según tus preferencias */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0); /* Agrega sombra al texto */
+    background-color: #f0f0f0; /* Cambia el color del fondo del título según tus preferencias */
+    padding: 10px;
+    border: 2px solid #9ba893; /* Cambia el color del borde del título según tus preferencias */
+    transition: text-shadow 0.3s; /* Agrega una transición suave al texto-shadow */
+}
+
+/* Cambia el efecto de desvanecimiento al pasar el mouse sobre el título */
+header h1:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Nuevo efecto de desvanecimiento al pasar el mouse */
+}
+
+
+
+/* Estilo para la sección principal */
+
+/* Estilo para la sección principal con efecto de sombra */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Cambia el color de la sombra según tus preferencias */
+    background-color: transparent;
+    font-family: 'Dancing Script', cursive; /* Cambia la fuente a 'Dancing Script' o la que prefieras */
+    transition: box-shadow 0.3s; /* Agrega una transición suave al efecto de sombra */
+}
+
+/* Cambia el efecto de sombra al pasar el mouse sobre la sección principal */
+main:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Nuevo efecto de sombra al pasar el mouse */
+}
+
+
+/* Estilos para la sección de fotos */
+.fotos img {
+    width: 100%; /* Ajustar imágenes al ancho completo del contenedor */
+    height: auto; /* Mantener proporción original */
+    border: 2px solid #50554d; /* Agregar borde a las imágenes */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agregar sombra a las imágenes */
+    transition: transform 0.3s;
+}
+
+/* Efecto al pasar el mouse sobre las imágenes */
+.fotos img:hover {
+    transform: scale(1.1); /* Aumentar tamaño de la imagen al pasar el mouse */
+}
+
+/* Estilo para el reproductor de video */
+video {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    height: auto; /* Mantiene la proporción original del video */
+    border: 2px solid #50554d; /* Agrega un borde alrededor del video */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra al video */
+    transition: transform 0.3s; /* Agrega una transición suave al efecto de escala */
+}
+
+/* Efecto al pasar el mouse sobre el video */
+video:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del video al pasar el mouse */
+}
+
+
+
